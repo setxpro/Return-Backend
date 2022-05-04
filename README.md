@@ -3,5 +3,3 @@
 npm i nodemailer
 npm i @types/nodemailer
 
-
-# SOLID 
