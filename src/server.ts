@@ -11,4 +11,4 @@ import { routes } from './routes'
     app.use(express.json())
     app.use(routes)
  
-app.listen(port,() => console.log(`HTTP server running`))
+app.listen(process.env.PORT || port,() => console.log(`HTTP server running`))
